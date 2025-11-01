@@ -26,7 +26,7 @@ type:
 4 = Nachwuchsakademie   
 5 = Fahrer    
 teams: jetztiges bzw. letztes Team     
-first_year: erste Jahr in der Formel 1 in ganzen Zahlen    
+debut_year: erste Jahr in der Formel 1 in ganzen Zahlen    
 last_year: letztes Jahr in der Formel 1 in ganzen Zahlen
 born: Geburtsjahr in ganzen Zahlen     
 independent:     
