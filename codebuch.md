@@ -10,6 +10,7 @@ relation: Art der Beziehung zwischen den Knoten
 3 = Formel 3  
 4 = Nachwuchsakademie   
   
+  
 **Nodelist**: 
 id: ID als Initiale Vor- und Nachname  
 name: Vor- und Nachname bzw. Organisationsname
