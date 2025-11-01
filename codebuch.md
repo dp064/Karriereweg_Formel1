@@ -11,7 +11,7 @@ relation: Art der Beziehung zwischen den Knoten
 4 = Nachwuchsakademie   
 
   
-**Nodelist**: 
+**Nodelist**:   
 id: ID als Initiale Vor- und Nachname  
 name: Vor- und Nachname bzw. Organisationsname  
 type:   
