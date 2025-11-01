@@ -9,7 +9,8 @@ relation: Art der Beziehung zwischen den Knoten
 2 = Formel 2,  
 3 = Formel 3,  
 4 = Nachwuchsakademie   
-  
+
+  
 **Nodelist**: 
 id: ID als Initiale Vor- und Nachname  
 name: Vor- und Nachname bzw. Organisationsname  
@@ -19,7 +20,6 @@ type:
 3 = Formel-3-Team,   
 4 = Nachwuchsakademie,   
 5 = Fahrer 
-
 teams: jetztiges bzw. letztes Team
 first_year: erste Jahr in der Formel 1 in ganzen Zahlen
 last_year: letztes Jahr in der Formel 1 in ganzen Zahlen
