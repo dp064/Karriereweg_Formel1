@@ -34,4 +34,3 @@ independent:
 2 = neutral (Teams)     
 3 = abhängig
 born: Geburtsjahr in ganzen Zahlen      
-education: Ort des höchsten Bildungsabschlusses  
