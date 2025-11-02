@@ -32,5 +32,5 @@ born: Geburtsjahr in ganzen Zahlen
 independent:     
 1 = unabhängig     
 2 = neutral (Teams)     
-3 = abhängig
+3 = abhängig      
 born: Geburtsjahr in ganzen Zahlen      
