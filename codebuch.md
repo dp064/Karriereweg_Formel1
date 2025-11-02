@@ -27,10 +27,9 @@ type:
 5 = Fahrer    
 teams: jetztiges bzw. letztes Team     
 debut_year: erstes Jahr in der Formel 1 in ganzen Zahlen    
-last_year: letztes Jahr in der Formel 1 in ganzen Zahlen
+last_year: letztes Jahr in der Formel 1 in ganzen Zahlen         
 born: Geburtsjahr in ganzen Zahlen     
 independent:     
 1 = unabhängig     
 2 = neutral (Teams)     
 3 = abhängig      
-born: Geburtsjahr in ganzen Zahlen      
