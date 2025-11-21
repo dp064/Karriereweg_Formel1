@@ -1,0 +1,1344 @@
+---
+title: "226305 Forschungsbericht"
+subtitle: "Karrierwege in der Formel 1: Eine Netzwerkanalyse zu Teams, Klassen und Nachwuchsprogrammen
+  (2015-2025)"
+author: Jennifer Chisom Edeh, Leonie Helbich, Dang Minh Thu Pham, Stefania Santucci,
+  Alina Württemberger
+date: "2025-11-21"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+editor_options:
+  markdown:
+    wrap: 72
+toc: true
+---
+
+# Keywords und Abstract
+
+Netzwerkanalyse, Formel 1, Motorsport, Karrierenetzwerke,
+Nachwuchstalente
+
+Der Aufstieg in die Formel 1 ist abhängig von institutionelle
+Fördermechanismen, Teamzugehörigkeiten und systematisierte
+Nachwuchswege. Diese Netzwerkforschung analysiert die Karriereverläufe
+alle Formel-1-Fahrer von 2015 bis 2025, um zu verdeutlichen, welche
+Teams, Nachwuchsprogramme und Rennserien zentrale Rollen in diesem
+System einnehmen. Auf Basis einer selbst erhobenen Edge- und Nodelist
+werden Verbindungen zwischen Fahrern, Formel-1-, Formel-2- und
+Formel-3-Teams sowie Nachwuchsakademien visualisiert und mithilfe
+zentraler Netzwerkmaße ausgewertet. Die Analyse zeigt, dass das
+Karrierenetzwerk hierarchisch aufgebaut ist. Es wird von wenigen
+Schlüsselakteuren wie ART Grand Prix, Prema Racing und dem Red Bull
+Junior Team dominiert. Fahrer aus Nachwuchsprogrammen folgen enger
+vernetzten Karrierewegen, während unabhängige Fahrer unterschiedlichere
+Wege in die Formel 1 haben. Der Vergleich zwischen 2015 und 2025 zeigt,
+dass sich der Karriereverlauf in den letzten Jahren stärker auf wenige
+zentrale Teams und Programme konzentriert hat. Besonders die
+Nachwuchsprogramme gewinnen zunehmend an Einfluss. Damit zeigt die
+Analyse nicht nur, wie eng die Karrierepfade im Motorsport miteinander
+verflochten sind, sondern gibt auch Hinweise darauf, wie sehr diese
+Strukturen den Einstieg in die Formel 1 bestimmen.
+
+# 1. Einleitung
+
+Für viele ist die Formel 1 der Inbegriff von Geschwindigkeit, Ruhm und
+Höchstleistung. Der Weg dorthin wirkt glamourös und steht sinnbildlich
+für sportlichen Erfolg. Doch hinter den Erfolgen auf der Strecke
+verbirgt sich ein komplexes System aus gezielter Nachwuchsförderung,
+struktureller Planung und institutionellen Verbindungen. Karrieren im
+professionellen Sport entstehen selten zufällig. Wer jedoch diesen
+Karrieresprung schafft, verdankt ihn meist nicht nur Talent oder
+Disziplin, sondern auch einer gezielten Förderung und der richtigen
+Einbettung in die Strukturen des professionellen Motorsports. Der Erfolg
+eines Fahrers, vor allem bei Sportarten wie dem Motorsport, hängt von
+einem komplexen Zusammenspiel aus individueller Leistung,
+institutionellen Strukturen, ökonomischen Faktoren und sozialen
+Netzwerken ab. Kaum ein Fahrer gelangt heute allein durch sein Talent in
+die Königsklasse des Motorsports.
+
+Wie Puschkeit (2022) herausstellt, entstehen Erfolge mittlerweile kaum
+noch zufällig. Das Prinzip der Systematisierung betrifft nicht nur
+technische Abläufe, sondern auch die Entwicklung von Fahrern (vgl.
+Puschkeit 2022, S. 127). Förderstrukturen, finanzielle Mittel und
+Zugehörigkeiten bestimmen vermehrt, welche Nachwuchsfahrer die Chance
+erhalten, sich auf höchstem Niveau zu beweisen. Außerdem wurden Teams
+und Nachwuchsprogramme institutionalisiert und professionalisiert (vgl.
+Bauer 2022, S. 296–298). Zum anderen gibt es eine klare Hierarchisierung
+der FIA-Nachwuchsserien, wodurch Aufstiegspfade entstanden sind (vgl.
+Mourao 2024, S. 1–3, 16–17). Zusätzlich gewann der Einfluss von
+Sponsoringprogrammen größere Bedeutung, welches Einfluss auf den
+Karriereweg von Fahrern prägt (vgl. Ruda 2022, S. 378–390; Krell und
+Nieland 2024, S. 152–157).
+
+Dennoch ist bislang wenig darüber bekannt, welche Verbindungen zwischen
+Teams, Klassen und Nachwuchsprogrammen tatsächlich den Aufstieg
+begünstigen. Die Formel 1 ist damit längst nicht mehr nur ein
+Wettbewerb, sondern Ausdruck eines eng vernetzten Systems, das
+Fahrerkarrieren maßgeblich beeinflusst. Während in anderen Sportarten
+Karriereverläufe umfassend untersucht werden, gibt es in der
+Karriereforschung der Formel 1 bislang nur wenig konkrete
+Forschungsergebnisse (vgl. Faria und Ferreira 2024, S. 2).
+
+Vor diesem Hintergrund widmet sich die vorliegende Arbeit der Frage,
+welche Verbindungen zwischen Teams, Klassen und Nachwuchsprogrammen den
+Weg von Fahrern in die Formel 1 im Zeitraum von 2015 bis 2025 prägen.
+Ziel ist es, die Netzwerkstrukturen der Fahrerkarrieren sichtbar zu
+machen und zu analysieren, welche Akteure besonders zentrale Rollen
+einnehmen.
+
+# 2. Hauptteil
+
+## 2.1. Stand der Forschung
+
+### 2.1.1. Karriereforschung im Sport und im Motorsport
+
+Die Karriereforschung liefert einen theoretischen Rahmen, um
+individuelle Laufbahnen als eine Folge von beruflichen Erfahrungen und
+sozialen Kontakten zu verstehen (vgl. Latzke et al. 2018, S. 5).
+Karriere wird nicht nur als linearer Aufstieg gesehen, sondern als
+Wechselwirkung zwischen Person und Umfeld, beeinflusst von
+institutionellen Bedingungen (vgl. Collin 2006, zitiert nach Latzke et
+al. 2018, S. 5). Besonders im Leistungssport sind diese stark durch
+Organisationen, Förderstrukturen und Netzwerke geprägt.
+
+Barthauer, Sauer und Kauffeld (2018) betonen, dass berufliche Netzwerke
+aus dem Geflecht aller berufsrelevanten Kontakte bestehen. Dazu zählen
+offizielle Strukturen wie Teams, Verbände und Organisationen sowie
+informelle Beziehungen mit Mentoren und Förderern. Für die
+Laufbahnentwicklung ist weniger das individuelle Talent entscheidend,
+sondern die Positionierung innerhalb des Netzwerks (vgl. Barthauer et
+al. 2018, S. 243). Diese Perspektive lässt sich auf den Motorsport
+übertragen, wo Kontakte zu Teamchefs, Sponsoren und Ausbildungsakademien
+karriereentscheidend sind.
+
+Die Karriereforschung zeigt zusätzlich, dass geplante Übergänge wichtig
+sind. Laut Latzke et al. (2018) verlaufen Karrieren immer häufiger nach
+standardisierten Mustern, die von Organisationen geprägt werden. Im
+Sport illustriert sich das zum Beispiel durch nationale Förderprogramme
+oder Nachwuchsleistungszentren. Auch das lässt sich auf die Formel 1
+übertragen: Juniorprogramme wie zum Beispiel von Red Bull, Ferrari oder
+Mercedes fungieren als Karrierenetzwerke und bieten den Weg zu höheren
+Rennserien (vgl. Latzke et al., 2018, S. 17, S. 23). Auch im Formelsport
+zeigt sich diese Entwicklung. Mit der Zusammenführung von GP3 und der
+Formel-3-Europameisterschaft zur neuen FIA-Formel-3-Meisterschaft
+entstand 2019 ein vereinheitlichter Aufstiegsweg innerhalb des
+Nachwuchsweges (vgl. Fehling 2018).
+
+Im Motorsport selbst beleuchtet Bauer (2022) die inneren Strukturen von
+Teams. Sie beschreibt Motorsportteams als „lebendige, dynamische
+Systeme" (vgl. Bauer 2022, S. 298). Diese systemische Sicht
+verdeutlicht, dass Karriereentscheidungen in der Formel 1 nicht isoliert
+getroffen werden, sondern Ergebnis dynamischer Entscheidungsprozesse
+sind. Ruda (2022) zeigt zudem, dass ökonomische und kommunikative
+Faktoren, beispielsweise Sponsoring oder mediale Sichtbarkeit, zentrale
+Einflussgrößen darstellen (vgl. Ruda 2022, S. 389–390). Der Weg in die
+Formel 1 ist somit nicht nur sportlich, sondern wird maßgeblich durch
+ein Netzwerk ökonomischer Rahmenbedingungen geprägt.
+
+Die vorher angesprochene ökonomische Komponente im Motorsport führt auch
+zu strukturellen Ungleichheiten. Krell und Nieland (2024) erläutern,
+dass durch ungleiche Budgets eine Zweiklassengesellschaft entsteht. Das
+wird deutlich durch sogenannte „Pay Driver“ wie beispielsweise Lance
+Stroll, der nicht nur durch Talent, sondern durch Geld und Kontakte in
+die F1 gekommen ist. Nur wenige Fahrer verfügen über die finanziellen
+Mittel oder Netzwerke, um konkurrenzfähige Teams zu erreichen (vgl.
+Krell & Nieland 2024, S. 157). Dieser Aspekt spielt für unsere Forschung
+eine entscheidende Rolle, da wir jenen durch die Netzwerkforschung
+sichtbar machen können.
+
+Mourao (2024) untersucht erstmals die Formel 1 nur über die
+Fahrerwechsel zwischen den Teams. Die Analyse zeigt, dass diese
+Bewegungen ein deutlich strukturierteres Netzwerk bilden statt
+zufälliger Transfers (vgl. Mourao 2024, S. 1). Daraus resultiert die
+Annahme, dass die Konstrukteursweltmeister, also die Teams, die die
+offizielle Teamwertung der Formel 1 gewinnen, besonders zentrale
+Vermittler im Netzwerk sind. Gleichzeitig sind diese Teams sehr
+selektiv, denn sie behalten starke Fahrer und nehmen nur selten Fahrer
+aus schwächeren Teams auf (vgl. Mourao 2024, S. 1–2). Die Analyse zeigt
+außerdem, dass Fahrer häufiger zwischen Teams mit deutlich
+unterschiedlichen Stärken oder Budgets wechseln, statt zwischen zwei
+ähnlich starken Teams. Die Ergebnisse unterstreichen, dass Karrierewege
+in der Formel 1 stark von institutionalisierten Hierarchien geprägt sind
+und dass Fahrerwechsel einem strategischen Muster folgen. Damit ergänzt
+die Studie die Karriereforschung im Motorsport um eine netzwerkbasierte
+Perspektive (vgl. Mourao 2024, S. 1–2).
+
+### 2.1.2. Soziale Netzwerkanalyse in der Sportforschung
+
+Die soziale Netzwerkanalyse (SNA) ist ein weitverbreitetes Werkzeug zur
+Untersuchung von Beziehungen und Karrierepfaden. In der Sportforschung
+wurde sie bislang vor allem zur Analyse von Teaminteraktionen oder
+Führungsnetzwerken eingesetzt. Ein aktuelles Beispiel liefert Motley et
+al. (2025), die die Karrierewege von 50 Frauen in Führungspositionen im
+US-College-Sport untersuchten. Sie zeigen, dass Karriereverläufe durch
+institutionelle Verknüpfungen, Mentoring-Beziehungen und
+Organisationserfahrungen geprägt sind (vgl. Motley et al. 2025, S.
+33–43).
+
+Vor allem die nachgewiesenen institutionellen Verknüpfungen bieten eine
+Grundlage für eine SNA der Formel-1-Fahrer, da der Weg von Fahrern durch
+eine Reihe institutioneller Stationen verläuft. Auf die Formel 1
+übertragen lassen sich ähnliche Muster vermuten, zum Beispiel der
+Einfluss von bestimmten Nachwuchsprogrammen oder Teams in den Serien FIA
+Formel 2 und Formel 3.
+
+Faria und Ferreira (2024) wenden die Netzwerkanalyse erstmals direkt auf
+die Formel 1 an, allerdings nicht in Bezug auf Karrierewege, sondern zur
+Untersuchung von Einflussstrukturen unter Fahrern. Ihre Studie zeigt,
+dass die Bedeutung eines Fahrers nicht allein durch Titel bestimmt wird,
+sondern durch die Struktur gemeinsamer Podien. Das bedeutet, Einfluss im
+Motorsport kann nicht nur durch Erfolg bei Rennen entstehen, sondern
+auch durch wiederkehrende Interaktionen. Die Studie zeigt erneut, dass
+Individuen im Sport netzwerkbasiert anzusehen sind (vgl. Faria und
+Ferreira 2024, S. 6–10). Obwohl also erste netzwerkanalytische Ansätze
+im Motorsport existieren, fehlt bislang eine Untersuchung, die die
+Karriereverbindungen zwischen Serien, Teams und Juniorprogrammen
+systematisch abbildet.
+
+### 2.1.3. Forschungslücke
+
+Die bisherige Forschung zum Motorsport konzentriert sich auf
+Teammanagement (vgl. Bauer 2022), Sponsoring (vgl. Ruda 2022) oder
+Wettbewerbsdynamiken (vgl. Budzinski und Feddersen 2019), während
+Karrierepfade und soziale Verbindungen kaum empirisch untersucht wurden.
+Studien wie jene von Faria und Ferreira (2024) liefern wertvolle
+methodische Anknüpfungspunkte, beschränken sich jedoch auf die
+Leistungs- und Einflussmessung innerhalb der Formel 1 selbst. Eine
+Betrachtung der strukturellen Übergänge in die Formel 1, also der Wege
+von Nachwuchsserien über Juniorprogramme bis zum Formel-1-Debüt, fehlt
+weitgehend.
+
+Gerade in den letzten Jahren haben sich die Wege in die Formel 1 stark
+institutionalisiert. Seit der Einführung der FIA-Formelserien zwischen
+2014 und 2019 besteht eine klare Hierarchie des Aufstiegs (vgl. Mourao
+2024, S. 1–3; 16–17). Gleichzeitig verstärkten die Formel-1-Teams ihre
+Nachwuchsprogramme. Dennoch existieren weiterhin Fahrer, die außerhalb
+dieser Strukturen in die Formel 1 gelangen, etwa über eigene Sponsoren,
+nationale Förderungen oder Einzelfälle wie Pay Driver.
+
+Dieses Spannungsfeld zwischen festen Karrierewegen und unabhängigen
+Ausnahmefällen wurde bisher noch nicht genau untersucht. Hier gibt es
+eine Forschungslücke, die sich mit sozialer Netzwerkanalyse gut
+erforschen lässt, um sowohl direkte als auch indirekte Verbindungen
+darzustellen.
+
+### 2.1.4. Ableitung der Hypothesen
+
+Aus dem skizzierten Forschungsstand ergeben sich zwei zentrale
+Hypothesen, die auf die Struktur und Dynamik des Karriere-Netzwerks in
+der Formel 1 zielen:
+
+-   H1: Fahrer, die Teil eines Formel-1-Juniorprogramms waren,
+    erscheinen im Netzwerk häufiger auf den institutionell vorgesehenen
+    Pfad in die Formel 1.
+
+    → Diese Hypothese gründet auf der Beobachtung, dass Juniorprogramme
+    als institutionelle Brücken fungieren (vgl. Kauffeld und Spurk 2018;
+    Barthauer et al. 2018) und durch Mentoring-, Ressourcen- und
+    Informationsvorteile Karriereaufstiege beschleunigen (vgl. Motley et
+    al. 2025).
+
+-   H2: Die Zahl der Standardwege über FIA-Serien steigt, während
+    unabhängige Wege abnehmen.
+
+    → Diese Hypothese basiert auf der Annahme einer zunehmenden
+    Institutionalisierung der Karrierearchitektur (vgl. Latzke et al.
+
+    2018) und der Professionalisierung der Motorsportstrukturen (vgl.
+          Bauer 2022; Ruda 2022).
+
+## 2.2. Codebuch, Datenerhebung und Datenbereinigung
+
+Die Datengrundlage dieser Untersuchung basiert auf öffentlich
+zugänglichen und überprüfbaren Quellen, die detaillierte Informationen
+zu den Karriereverläufen von Formel-1-Fahrern im Zeitraum von 2015 bis
+2025 bereitstellen. Hauptquelle war dabei die Motorsportdatenbank
+speedsport-magazine (vgl. Speedsport Magazine, o. J.), die umfassende
+Profile zu Fahrern, Teams und Rennserien enthält. Ergänzend wurden
+offizielle Team- und Akademienwebseiten sowie Pressemitteilungen
+herangezogen, um Vertragsverhältnisse, Team- und
+Nachwuchsprogrammzugehörigkeit zu verifizieren. Durch diese Kombination
+aus datenbankbasierten und offiziellen Quellen konnte eine hohe
+Datenvalidität gewährleistet werden. Das Sampling folgte einem klar
+definierten Auswahlkriterium, das darauf abzielte, ausschließlich Fahrer
+zu berücksichtigen, die in dem genannten Zeitraum einen offiziellen
+Formel-1-Vertrag besaßen und mindestens bei einem Rennen gefahren sind.
+Fahrer, die lediglich als Ersatz- oder Testfahrer ohne offiziellen
+Teamvertrag eingesetzt wurden, wurden explizit aus dem Datensatz
+ausgeschlossen. Damit konzentriert sich die Analyse auf institutionell
+abgesicherte Karriereverläufe, die tatsächlich Teil der strukturellen
+Förder- und Rekrutierungsmechanismen der Formel 1 sind. Dies stellt
+sicher, dass die erfassten Verbindungen nicht durch einmalige oder
+zufällige Ereignisse verzerrt werden, sondern reale Beziehungen zwischen
+Fahrern und Teams widerspiegeln.
+
+Basierend auf die Datengrundlagen wurde ein Codebuch entwickelt, das als
+einheitliche Grundlage für die Codierung und Auswertung diente. Mit der
+Operationalisierung wurde das Ziel verfolgt, komplexe Sachverhalte in
+klar definierte und nachvollziehbare Werte zu übertragen. Dadurch waren
+alle Teammitglieder auf dem gleichen Stand und konnten Entscheidungen
+schnell treffen. Zudem sollte sichergestellt werden, dass alle
+relevanten Aspekte einheitlich erfasst werden und die Datenerhebung und
+-bereinigung vereinfacht wird. Um die Beziehungsstrukturen zwischen
+Fahrern, Teams und Nachwuchsakademien zu analysieren, wurde eine
+Edgelist erstellt. Diese zeigt sämtliche Verbindungen zwischen den
+Akteuren in einheitlicher Form, um die erhobenen Daten so aufzubereiten,
+dass sie strukturiert und auswertbar für die Netzwerkanalyse sind. Jeder
+Datensatz in der Edgelist beschreibt eine Beziehung zwischen zwei Knoten
+(„from” und „to”). Dazu erhalten sie zusätzliche Informationen zur Art,
+Stärke und zum zeitlichen Verlauf dieser Verbindung. Die Variablen
+wurden wie folgt definiert:
+
+-   **from / to**: Identifikation der Knoten erfolgt durch die Initialen
+    des Vor- und Nachnamens, um eindeutige Zuordnungen zu gewährleisten.
+
+-   **year**: Ganzzahlige Variable, die das Jahr anzeigt, in dem die
+    Beziehung entstanden ist. Zum Beispiel das Jahr, in dem ein Fahrer
+    erstmals aktiv in einem Team oder Nachwuchsakademie wurde.
+
+-   **weight**: Diese Variable beschreibt die Stabilität der Verbindung
+    zwischen Fahrer und Organisation. Ein höherer Wert steht für engere
+    Beziehung innerhalb der Teams:
+
+    -   1 = keine Gewichtung
+
+    -   2 = in mehreren Teams innerhalb der Klasse
+
+    -   4 = in zwei Teams innerhalb der Klasse
+
+    -   6 = in einem Team innerhalb der Klasse
+
+-   **relation**: Einordnung der Beziehung zwischen den Knoten nach Art.
+    Unterschieden wird hier nach Rennserie und Nachwuchsakademie:
+
+    -   1 = Formel 1
+
+    -   2 = Formel 2
+
+    -   3 = Formel 3
+
+    -   4 = Nachwuchsakademie
+
+Jeder Datensatz in der Nodelist beschreibt einen einzelnen Knoten
+innerhalb des Netzwerks. Diese Knoten erhielten ergänzende Informationen
+zur Identität, Zugehörigkeit und Funktion. Die Variable wurde wie folgt
+operationalisiert:
+
+-   **id**: Identifikation der Knoten erfolgt durch die Initialen des
+    Vor- und Nachnamens, um eindeutige Zuordnungen zu gewährleisten.
+
+-   **name**: Vollständiger Name der Person beziehungsweise der
+    Organisation type: Einordnung des Knotens nach seiner Zugehörigkeit
+    im Netzwerk:
+
+    -   1 = Formel-1-Team
+
+    -   2 = Formel-2-Team
+
+    -   3 = Formel-3-Team
+
+    -   4 = Nachwuchsakademie
+
+    -   5 = Fahrer
+
+-   **teams**: Aktuelles oder zuletzt zugehöriges Team.
+
+-   **debut_year**: Ganzzahlige Variable, die das erste Jahr in der
+    Formel 1 angibt.
+
+-   **last_year**: Ganzzahlige Variable, die das letzte Jahr in der
+    Formel 1 angibt.
+
+-   **independent**: beschreibt, ob die Fahrer in einer
+    Nachwuchsakademie oder in keiner waren:
+
+    -   1 = unabhängig
+
+    -   2 = neutral (Teams)
+
+    -   3 = abhängig
+
+-   **born**: Ganzzahlige Variable, die das Geburtsjahr angibt.
+
+Durch diese Operationalisierung entstand eine Grundlage, die
+ermöglichte, dass Verbindungen, Wechsel zwischen Rennklassen und
+Nachwuchsakademien in den Fahrerkarrieren systematisch dokumentiert und
+untersucht werden konnten.
+
+Die Datenerhebung erfolgte auf Basis der zuvor beschriebenen Quellen.
+Für jeden Fahrer wurden alle relevanten Karrierestationen anhand der
+definierten Typen (Formel 1, Formel 2, Formel 3 und Nachwuchsakademien)
+erhoben und in die Edgelist sowie Nodelist eingetragen. Hierfür wurden
+ausschließlich nur nachweisbare Verbindungen beachtet, die durch
+offizielle Quellen wie Motorsportdatenbanken, Team- und
+Akademiewebseiten sowie Pressemitteilungen bestätigt sind. Zur
+Sicherstellung der Daten wurden alle erhobenen Informationen mehrfach
+überprüft, mit weiteren Quellen abgeglichen und bei Abweichungen erneut
+recherchiert sowie gegebenenfalls korrigiert oder ausgelassen.
+Anschließend wurden Schreibweisen vereinheitlicht und Doppelungen
+entfernt. Die Edge- und Nodelist wurden dann final zusammengeführt und
+geprüft, ob alle in der Edgelist vorkommenden Verbindungen zu den Knoten
+in der Nodelist passen. Mit diesem Bereinigungsprozess entstand ein
+vollständiger Datensatz, der als Grundlage für die Netzwerkanalyse
+fungiert.
+
+## 2.3. Visualisierung des Gesamtnetzwerks
+
+```{r Gesamnetzwerk erstellen, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, fig.height=10, fig.width=15}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(igraph)
+library(manynet)
+library(tidygraph)
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/dp064/Karriereweg_Formel1/refs/heads/main/edgelist.csv", header=T, as.is=T, sep = ",")
+
+nl <- read.csv("https://raw.githubusercontent.com/dp064/Karriereweg_Formel1/refs/heads/main/nodelist.csv", header=T, as.is=T, sep = ",")
+
+edgematrix <-as.matrix(el)
+
+# Spalten umbenennen
+nl <- nl|>
+  rename("full_name"= "name")|>
+  rename("name"="id")
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt f1
+f1 <- graph_from_data_frame(d = edgematrix, vertices = nl, directed = FALSE)
+
+# Wandelt igraph in tibble um
+f1 <- as_tbl_graph(f1)
+f1
+```
+
+```{r einfache visualisierung, fig.height=15, fig.width=20}
+plot(f1,
+     asp=0, 
+     layout=layout_with_kk,
+     edge.arrow.size=.5,
+     vertex.size=10,
+     main ="Formel-1-Fahrer und ihre Karrierewege")
+```
+
+```{r Visualisierung der Typen, fig.height=20, fig.width=30}
+# Farben basierend auf Type vordefinieren
+type_shapes <- c(
+  "1" = "csquare",
+  "2" = "csquare",
+  "3" = "csquare", 
+  "4" = "csquare",
+  "5" = "circle"
+)
+# Farben basierend auf Type vordefinieren
+type_colors <- c(
+  "1" = "indianred2",
+  "2" = "skyblue2",
+  "3" = "gold",
+  "4" = "darkolivegreen2",
+  "5" = "grey")
+
+# Legt die Linientypen der Kanten fest
+E(f1)$lty <- ifelse(E(f1)$relation == "4", "dashed", "solid") # Beziehung mit relation gleich 4 sind gestrichelt, alle anderen durchgehend
+
+# Formen und Farben basierend auf Type jeden Knoten zuweisen
+V(f1)$shape <- type_shapes[V(f1)$type]
+V(f1)$color <- type_colors[V(f1)$type]
+
+plot(f1, # ruft das tidygrapg-Objekt auf
+     asp = 0, #nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     rescale=TRUE, # Layout wird reskaliert
+     vertex.size=degree(f1)/1.5, # Knotengröße entspricht halbem Degree
+     vertex.label.cex = 0.75, # Label-Größe
+     vertex.label=V(f1)$full_name, # definiert die Labels der Knoten
+     vertex.label.color="black", # färbt die Labels
+     edge.size=10, # Dicke der Kanten
+     height = 9, # gibt die Höhe an
+     width = 16, # gibt die Breite an
+     main="Formel-1-Fahrer und ihre Karrierewege") # gibt der Visualisierung einen Titel
+```
+
+Der erste Chunk illustriert die einfache Visualisierung. Mit ihr wird
+geprüft, ob die Abbildung ausgeführt werden kann. In dem darauffolgenden
+Chunk wurden dann den Knoten mit Typ Fünf, also den Formel-1-Fahrern,
+die Farbe Grau und Form Kreis zugewiesen. Alle anderen Typen erhielten
+die Form eines Quadrats. Die Formel-1-Teams sind Rot, die Formel-2-Teams
+Blau, die Formel-3-Teams Gelb und die Nachwuchsakademien Grün.
+Zusätzlich erhielten die Kanten mit den Nachwuchsakademien einen
+gestrichelten Linientyp. Um ein besseres Verständnis für das Netzwerk zu
+gewährleisten, benutzen wir nicht mehr die IDs als Label der Knoten,
+sondern die Fahrernamen beziehungsweise die der Teams.
+
+## 2.4. Netzwerkmaße
+
+```{r Netzwerkmaße}
+
+# handelt sich es um ein one-moder oder two-mode Netzwerk?
+is_bipartite(f1)
+
+# zählt die Knotenanzahl
+vcount(f1)
+
+# zählt die Kantenanzahl
+ecount(f1)
+
+# CoPilot: Du bist RStudio Experte und Profi für soziale Netzwerkanalyse. Dabei benutzt du folgende Pakete: library(tidyverse) library(igraph) library(manynet) library(tidygraph). Wie zählst du, wie viele Knoten es gibt, von den einzlenen Typen? Ich möchte herausfinden, wie viele organissationen und wie viele Fahrer.
+
+# https://copilot.microsoft.com/shares/eVumcuUEptkw5K8SueQyh
+table(V(f1)$type) # gibt die Anzahl der verschieden Typen an
+
+
+# besteht das Netzwerk aus Komponenten?
+# wenn ja, wie vielen?
+is_connected(f1)
+components(f1)
+
+# Ist es ein gerichtetes Netzwerk?
+is_directed(f1)
+
+# Dichte des Netzwerks in Prozent
+dichte <- edge_density(f1)*100
+dichte
+
+# durchschnittliche Distanz zwischen allen Knoten
+mean_distance(f1)
+
+# Umfang des Netzwerks
+diameter(f1)
+
+# Pfaddistanzen (Distance)
+farthest_vertices(f1)
+```
+
+Das vorliegende Netzwerk ist ungerichtet und bipartit. Es bildet
+ausschließlich die Beziehungen zwischen den Formel-1-Fahrern und den
+Organisationen ab, bei denen sie im Verlauf ihrer Karriere aktiv waren.
+Somit werden die institutionellen Zusammenhänge entlang individueller
+Karriereverläufe sichtbar. Das Netzwerk ist gewichtet, das bedeutet,
+dass die Stabilität der Beziehungen berücksichtigt wird. Eine höhere
+Kantengewichtung zeigt demnach eine engere Beziehung. Nach der
+Bereinigung der Daten umfasst das Netzwerk insgesamt 216 Kanten und 109
+Knoten, wovon 53 Formel-1-Fahrer, sieben Nachwuchsakademien, jeweils 19
+Formel-3- und -2-Teams und elf Formel-1-Teams sind. Es besteht aus zwei
+Komponenten, wobei eine große Hauptkomponente den überwiegenden Teil der
+Karrieren darstellt und eine kleinere Nebenkomponente bestehend aus zwei
+Knoten. Von allen möglichen Verbindungen beträgt die Dichte im Netzwerk
+rund 3,67 Prozent. Dies lässt sich damit begründen, dass der Motorsport
+vor allem aber auch Formelserien selektiv ist. Durchschnittlich benötigt
+ein Knoten 9,4 Schritte, um von einem Knoten zu einem anderen zu
+gelangen. Der Durchmesser des Netzwerks beträgt 30 Schritte zwischen den
+Knoten Caterham Academy und dem Formel-3-Team Signature. Die maximale
+Pfaddistanz beträgt 30 Schritte. Diese Struktur demonstriert ein
+hochgradig differenziertes Karrieresystem, in dem sich ein paar
+institutionelle Kerne aus etablierten Teams und Akademien herausgebildet
+hat. Es gibt jedoch trotzdem weiterhin einzelne unkonventionelle Pfade.
+
+## 2.5. Zentralitätsmaße
+
+Zur Bestimmung der strukturellen Bedeutung einzelner Akteure innerhalb
+der Netzwerke wurden die Zentralitätsmaße Degree, Betweenness und
+Closeness berechnet. Sie geben Aufschluss über Konnektivität,
+Vermittlungsfunktion und hierarchische Einbindung einzelner
+Organisationen und Fahrer.
+
+```{r Degree-Zentralität}
+# Welcher Knoten hat welchen Degreewert?
+c_deg <- degree(f1, mode="all")
+c_deg
+which.max(degree(f1, mode="all")) # größter Wert
+which.min(degree(f1, mode="all")) # kleinster Wert
+
+```
+
+Mit dem Degreewert ist es möglich, zunächst einen Überblick über
+zentrale Knoten im Netzwerk zu erhalten. Das Formel-3-Team ART Grand
+Prix (ART3) hat mit einem Wert von 13 die höchste Degree-Zentralität.
+Somit sind sie mit vielen Knoten direkt verbunden und fungieren als
+zentrale Talentschmiede. Weiterhin besitzen auch das Formel-2-Team ART
+Grand Prix (ART2) und die Nachwuchsakademie Red Bull Junior Team (RBR)
+mit einem Degreewert von 12 eine zentrale Position im Netzwerk. Diese
+Knoten haben folglich einen großen Einfluss im Netzwerk und sind
+wichtige Stationen, um in die Formel 1 aufzusteigen. Außerdem haben die
+Formel-1-Teams Visa Cash App RB (VC) mit einem Degreewert von 11,
+Williams (W) mit einem Degreewert von ebenfalls 11 und Stake (S1) mit
+einem Degreewert von 10 eine hohe Zentralität. Ein hoher Degreewert bei
+Formel-1-Teams bedeutet, dass viele Fahrer ihren Formel-1-Einstieg über
+diese Teams fanden. Solche Teams ermöglichen häufiger die Chance, in die
+höchste Klasse des Motorsports zu gelangen, und stellen so die
+Hauptzugänge dar.
+
+Im Gegensatz dazu weist ein niedriger Wert auf periphere Akteure hin.
+Fahrer, die einen Degreewert von eins haben wie Fernando Alonso (FA),
+Felipe Massa (FM), Jenson Button (JB), Kimi Räikkönen (KR) oder Robert
+Kubica (RK) sind schwach eingebunden im Netzwerk und sind nur zu ihren
+Einstiegsformel-1-Team verbunden. Sie spielen in der Karrierearchitektur
+eher eine Randrolle. Für ein Team in der Formel 2 oder 3 bedeutet eine
+Degreewert von eins, dass sie nur mit einem Fahrer verbunden sind. Sie
+haben keine nachhaltige beziehungsweise wiederkehrende
+Nachwuchsfunktion, sondern stellen eher einzelne, einmalige Stationen
+dar. Für die Nachwuchsakademie Caterham Academy (CA) weist dies auf eine
+geringe institutionelle Reichweite und daraufhin, dass keine
+systematische Förderung etablieren wurden konnte. Formel-1-Teams, die
+einen Degreewert von eins haben, sind nicht zentrale Eintrittsknoten,
+sondern symbolisieren eher die Einzelfälle im Karrierenetzwerk. Meistens
+sind das Teams, die kurz in der Formel-1 waren oder eher erfahrene
+Fahrer rekrutieren, anstatt Talente aus der Nachwuchsstruktur.
+
+```{r Betweenness-Zentralität}
+# Betweenness (Wie gut verbindet der Knoten andere?)
+c_betw <- betweenness(f1, normalized=TRUE)
+c_betw
+which.max(betweenness(f1)) # größter Wert
+which.min(betweenness(f1)) # kleinster Wert
+
+# Copilot: Wie erstellt man eine Tabelle nach der Betweennessgröße? Ich habe bis jetzt folgendes: c_betw <- betweenness(f1, normalized=TRUE) c_betw
+# https://copilot.microsoft.com/shares/eVumcuUEptkw5K8SueQyh
+sort(c_betw, decreasing = TRUE) # Tabelle sortiert anzeigen
+
+```
+
+Um herauszufinden, ob die Knoten, die im Netzwerk viele Verbindungen
+haben, auch als Brücke zwischen anderen Knoten fungieren, muss die
+höchste Betweenness-Zentralität berechnet werden. Dies wird mit dem
+Befehl which.max ermittelt. Der Knoten mit dem höchsten Betweennesswert
+ist der Knoten W, also das Formel-1-Team Williams. Williams besitzt eine
+Betweenness-Zentralität von 0,23. Dies weist auf die besondere Rolle des
+Akteurs als Vermittlungsfunktion im Karrierenetzwerk. Williams liegt
+strukturell zwischen verschiedenen Nachwuchsprogrammen und der
+Formel-1-Ebene, und fungiert somit als Brückenknoten im Übergang von der
+Entwicklungsebene zur Profiklasse. Ein Formel-1-Team mit einer niedrigen
+Betweenness wie Scuderia Minardi, Mercedes, Caterham oder HRT, befinden
+sich am Rand des Netzwerks und stellen eher Endpunkte erfolgreicher
+Karrieren als Übergangsstationen dar.
+
+Unter den Fahrern hat Pierre Gasly (PG) mit einer
+Betweenness-Zentralität von 0,13 den höchsten Wert. Dies bedeutet, dass
+er im Netzwerk eine vermittelnde Schlüsselposition einnimmt und als
+Bindeglied zwischen Teams und Rennklassen agiert. Sein Karriereweg
+verbindet unterschiedliche Stationen miteinander, was auf eine Mobilität
+und strategische Übergangsposition im Gesamtnetzwerk hinweist. Solche
+Fahrer tragen zur Verknüpfung institutioneller Teilbereiche bei. Im
+Gegensatz dazu weisen zahlreiche Fahrer wie Nico Hülkenberg (NH), Kimi
+Räikkönen (KR), Fernando Alonso (FA), Felipe Massa (FM) und Jenson
+Button (JB) eine Betweenness-Zentralität von null auf. Diese Akteure
+liegen auf keinem der kürzesten Pfade zwischen anderen Knoten und
+übernehmen somit auch keine strukturelle Vermittlungsfunktion im
+Netzwerk. Sie sind ausschließlich direkt mit einem Team verbunden und
+bilden keine Brücken zwischen unterschiedlichen Organisationen. Da es
+sich hierbei um unabhängige Fahrer handelt, spiegelt sich jene Werte auf
+die fragmentierte und individuell verlaufende Karrierewege. Ihre
+Karrieren haben keine zentralen Schnittstellen, was auf eine geringere
+Einbindung in die institutionelle Karrierestruktur hindeutet.
+
+Auffällig ist es, dass keine der Nachwuchsakademien hohe
+Betweennesswerte besitzen. Sie liegen meist im niedrigen beziehungsweise
+mittleren Bereich. Das ist darauf zurückzuführen, dass sie zwar viele
+Fahrer direkt binden, aber nur über diese Verbindungen indirekt mit den
+Teams in den verschiedenen Klassen verknüpft sind. Ihre Funktion besteht
+darin, Fahrer in ein System einbinden, welches über bestimmte Teams an
+die Formel 1 anschließt.
+
+```{r Closeness-Zentralität}
+# Closeness (Sind die Alteri gut vernetzt?)
+c_clos <- closeness(f1, normalized=TRUE)
+c_clos
+which.max(closeness(f1)) # größter Wert
+which.min(closeness(f1)) # kleinster Wert
+sort(c_clos, decreasing = TRUE) # sortiert die Ergebnisse
+```
+
+Damit weitere Aussagen über die Zentralität von Akteuren getroffen
+werden können, ist es von Bedeutung, einen näheren Blick auf die
+Closeness zu werfen. Mit ihr kann man Schlüsse bezüglich der
+Erreichbarkeit, also seine Effizeinz, potentielle Informationen
+aufzunehmen und weiterzugeben, ziehen. Die Knoten M, das Formel-1-Team
+Scuderia Minardi, und FA, Fernando Alonso, haben beide den höchsten
+Closenesswert von eins, was eine direkte, aber isolierte Beziehung
+repräsentiert. Die beiden Knoten besitzen keine einzige andere
+Verbindung zu anderen Fahrern beziehungsweise Institutionen und sind
+damit komplett vom übrigen Netzwerk abgetrennt und bilden somit eine
+eigene Komponente. In der Hauptkomponente haben die Formel-2-Teams DAMS
+(DAMS2), Rodin Carlin (RC2) und ART Grand Prix (ART2) mit rund 0,15 die
+höchste Closeness-Zentralität. Deshalb sind sie effiziente
+Zugangspunkte, um in die Formel 1 zu gelangen, denn Fahrer, die über sie
+fahren, haben einen direkteren Wege zu anderen Organisationen. Die
+deskriptive Analyse dieses Karrierenetzwerks ist damit abgeschlossen.
+
+## 2.6. Teilnetzwerke
+
+### 2.6.1. Ebene
+
+Zur vertieften Analyse der Karrierestrukturen wird das Gesamtnetzwerk in
+Teilnetzwerke geteilt. Diese werden nach den Rennklassen 2 und 3, sowie
+Nachwuchsakademien gefiltert und visualisiert. Damit soll ersichtlich
+werden, welche Klassen und Juniorprogrammen den Weg in die Formel 1
+besonders prägen. Das erste Teilnetzwerk bildet die Formel 2.
+
+```{r Teilnetzwerk: Formel 2, fig.height=15, fig.width= 20}
+# Teilnetzwerk Formel 2 erstellen 
+formel2 <- f1|>
+  activate(edges)|> # aktiviert die Kanten
+  filter(relation == 2) # filtert Verbindungen nach Formel-2-Team
+  
+formel2 <- formel2|>
+  activate(nodes)|>  # aktiviert die Knoten
+  filter(!node_is_isolated()) # entfernt isolierte Knoten
+
+plot(formel2, # ruft das tidygrapg-Objekt auf
+     asp = 0, # nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     vertex.size=degree(formel2), # Knotengröße entspricht Degree
+     vertex.label.cex = 1, # Label-Größe
+     vertex.label=V(formel2)$full_name, # definiert die Labels der Knoten
+     vertex.label.color="black", # färbt die Labels
+     edge.width=V(formel2)$weight, # Dicke der Kanten nach weight
+     height = 9, # gibt die Höhe an
+     width = 16, # gibt die Breite an
+     main=" Teilnetzwerk Formel 2") # gibt der Visualisierung einen Titel
+
+# zählt die Knotenanzahl
+vcount(formel2)
+
+# gibt die Anzahl der verschieden Typen an
+table(V(formel2)$type) 
+
+# zählt die Kantenanzahl
+ecount(formel2)
+
+# Dichte des Netzwerks in Prozent
+dichte2 <- edge_density(formel2)*100
+dichte2
+
+# Degree-Zentralität berechnen
+degree(formel2, mode="all")
+which.max(degree(formel2, mode="all")) # größter Wert
+# Betweenness-Zentralität berechnen
+betweenness(formel2, normalized=TRUE)
+which.max(betweenness(formel2)) # größter Wert
+```
+
+Das Teilnetzwerk der Formel 2 umfasst 66 Kanten und 55 Knoten, davon 19
+Formel-2-Teams und 36 Fahrer. Somit ergibt sich eine Netzwerkdichte von
+ca. 4,44 Prozent. Angesichts der bipartiten Struktur kann dieser Wert
+als moderat eingestuft werden. Er zeigt, dass innerhalb der Formel 2
+eine Verflechtung zwischen den Fahrern und Teams existiert. Mehrere
+Fahrer sind also über dieselben Teams miteinander verbunden. Die Teams
+agieren hier demnach als zentrale Knoten, die verschiedene Akteure des
+Netzwerks miteinander verbinden. Jene Struktur führt dazu, dass Fahrer
+indirekt über gemeinsame Teambeziehungen verknüpft sind, auch wenn eine
+Interaktion miteinander nicht stattgefunden hat. Besonders die Teams ART
+Grand Prix (ART2) und Prema Racing (PR2) zeigen mit ihrer hohen
+Gradzentralität, dass viele Formel-1-Fahrer eine Station bei ihnen
+verbracht haben. Sie übernehmen innerhalb der Klasse eine zentrale
+Rolle, indem sie viele Talente sammeln und in das Netzwerk einbinden.
+Dennoch besitzt DAMS (DAMS2) den höchsten Betweennesswert und übernimmt
+somit die Rolle als Vermittler zwischen den verschiedenen Knoten. Dies
+verdeutlicht, dass die Formel-2-Struktur zentralisiert ist. Die wenigen
+Teams bündeln die Verbindungen, wodurch ein verflochtenes Netzwerk
+entsteht, das auf feste Zuordnungen setzt.
+
+```{r Teilnetzwerk: Formel 3, fig.height=15, fig.width= 20}
+# Teilnetzwerk Formel 3 erstellen 
+formel3 <- f1|>
+  activate(edges)|> # aktiviert die Kanten
+  filter(relation == 3) # filtert Verbindungen nach Formel-3-Teams
+  
+formel3 <- formel3 |>
+  activate(nodes)|> # aktiviert die Knoten
+  filter(!node_is_isolated()) # entfernt isolierte Knoten
+
+plot(formel3, # ruft das tidygrapg-Objekt auf
+     asp = 0, # nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     vertex.size=degree(formel3), # Knotengröße entspricht Degree
+     vertex.label.cex = 1, # Label-Größe
+     vertex.label=V(formel3)$full_name, # definiert die Labels der Knoten
+     vertex.label.color="black", # färbt die Labels
+     edge.width=V(formel3)$weight, # Dicke der Kanten nach weight
+     height = 9, # gibt die Höhe an
+     width = 16,# gibt die Breite an
+     main=" Teilnetzwerk Formel 3") # gibt der Visualisierung einen Titel
+
+# zählt die Knotenanzahl
+vcount(formel3)
+
+# gibt die Anzahl der verschieden Typen an
+table(V(formel3)$type) 
+
+# zählt die Kantenanzahl
+ecount(formel3)
+
+# Dichte des Netzwerks in Prozent
+dichte3 <- edge_density(formel3)*100
+dichte3
+
+# Degree-Zentralität berechnen
+degree(formel3, mode="all")
+which.max(degree(formel3, mode="all")) # größter Wert
+# Betweenness-Zentralität berechnen
+betweenness(formel3, normalized=TRUE)
+which.max(betweenness(formel3)) # größter Wert
+```
+
+Das Teilnetzwerk der Formel 3 besteht aus 61 Kanten und 58 Knoten, davon
+19 Formel-3-Teams und 39 Formel-1-Fahrer. Das Netzwerk gliedert sich in
+fünf Komponenten auf, wovon eine große Hauptkomponente und vier
+kleineren, voneinander isolierte Komponenten unterschieden werden
+können. Innerhalb der Hauptkomponente kristallisieren sich drei Zentren
+heraus: ART Grand Prix (ART3), Rodin Carlin (RC3) und Prema Racing
+(PR3). Diese Akteure verfügen über die meisten Verbindungen zu Fahrern
+und bilden den organisatorischen Schwerpunkt der Serie. Die
+Netzwerkstruktur ist damit stärker verteilt, was auf eine höhere
+Streuung der Karrierepfade der Serie hinweist. Die leicht geringere
+Dichte, welche um fast ein Prozent niedriger ist als die des
+Formel-2-Netzwerks, unterstreicht, dass die Fahrer in der Formel 3
+seltener gemeinsame Stationen teilen und somit auch weniger Teamwechsel
+hatten. Gleichzeitig deuten die drei Zentren auf die Existenz klarer
+Bezugspunkte im System hin.
+
+```{r Teilnetzwerk: Nachwuchsakademie, fig.height=15, fig.width= 20}
+# Teilnetzwerk Akademie erstellen
+academy <- f1|>
+  activate(edges)|> # aktiviert die Kanten
+  filter(relation == 4) # filtert Verbindungen nach Akademien
+  
+academy <- academy |>
+  activate(nodes)|> # aktiviert die Knoten
+  filter(!node_is_isolated()) # entfernt isolierte Knoten
+
+plot(academy, # ruft das tidygrapg-Objekt auf
+     asp = 0, # nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     vertex.size=degree(academy), # Knotengröße entspricht Degree
+     vertex.label.cex = 1, # Label-Größe
+     vertex.label=V(academy)$full_name, # definiert die Labels der Knoten
+     vertex.label.color="black", # färbt die Labels
+     edge.width=V(academy)$weight, # Dicke der Kanten nach weight
+     height = 9, # gibt die Höhe an
+     width = 16, # gibt die Breite an
+     main=" Teilnetzwerk Nachwuchsakademie") # gibt der Visualisierung einen Titel
+
+# zählt die Knotenanzahl
+vcount(academy)
+
+# gibt die Anzahl der verschieden Typen an
+table(V(academy)$type)
+
+# zählt die Kantenanzahl
+ecount(academy)
+
+# Dichte des Netzwerks in Prozent
+dichte_a <- edge_density(academy)*100
+dichte_a
+
+# Degree-Zentralität berechnen
+degree(academy, mode="all")
+which.max(degree(academy, mode="all")) # größter Wert
+# Betweenness-Zentralität berechnen
+betweenness(academy, normalized=TRUE)
+which.max(betweenness(academy)) # größter Wert
+```
+
+Im Teilnetzwerk der Nachwuchsakademien gibt es 36 Kanten und 41 Knoten,
+die aus sieben Akademien und 34 Formel-1-Fahrer zusammengesetzt wurde.
+Im Vergleich zu den beiden FIA-Rennserien unterscheidet sich dieses
+Netzwerk deutlich in seiner Struktur. Auch hier bilden die Institutionen
+die zentralen Knoten ab. Der entscheidende Unterschied liegt darin, dass
+fast alle Fahrer ausschließlich nur zu einem einzigen Nachwuchsprogramm
+eine Verbindung haben. Lediglich Zhou Guanyu (ZG) und Jack Doohan (JD)
+stellen die Ausnahmen dar. Beide gehörten der der Alpine Academy (AP)
+an, während Doohan zusätzlich noch im Red Bull Junior Team (RBR) und
+Guanyu Mitglied der Ferrari Driver Akademie (FDA) war. Sie fungieren
+hier somit als Brückenakteure, die indirekte Verbindungen zwischen den
+drei Akademien herstellen und so die einzigen Übergänge innerhalb des
+Netzwerks ermöglichen. Insgesamt zeigt sich in diesem Teilnetzwerk eine
+klar segmentierte und institutionell abgeschottete Struktur, in der
+Nachwuchsprogramme weitgehend unabhängig voneinander bestehen. Jene
+Exklusivität spiegelt den Fördercharakter der Akademien wider: Fahrer
+werden gezielt an eine Organisation gebunden und wechseln nur in
+Ausnahmefällen. Damit bildet das Akademienetzwerk die am stärksten
+geschlossene und am wenigsten vernetzte Ebene innerhalb der untersuchten
+Strukturen des motorsportlichen Karrierepfads.
+
+Die drei Teilnetzwerke verdeutlichen, dass sich die Karrierestrukturen
+im Nachwuchsbereich des Motorsports stark unterscheiden. Die Formel 2
+zeigt sich als das am stärksten zentralisierte und zugleich kohärenteste
+System. Wenige Teams bündeln dort die Verbindungen zwischen vielen
+Fahrern und agieren als feste Bezugsknoten im Karriereverlauf. In der
+Formel 3 ist die Struktur dagegen etwas fragmentierter, da die Fahrer
+über weniger gemeinsame Stationen miteinander verknüpft sind. Hier
+lassen sich also wenigere überlappende Entwicklungswege erkennen. Im
+Unterschied zu den beiden Rennserien ist das Akademienetzwerk eine
+Ebene, die stark institutionell geprägt ist. Anders als bei Formel 2 und
+Formel 3 beruhen die Verbindungen auf exklusiven Förderbeziehungen. Die
+Nachwuchsprogramme agieren als geschlossene Systeme, in denen Fahrer
+kaum übergreifende Kontakte haben. Nur wenige Brückenakteure verbinden
+Programme miteinander. Jenes weist auf eine Segmentierung der
+Förderlandschaft. Insgesamt zeigt der Vergleich, dass der
+motorsportliche Aufstieg zwar in allen Ebenen durch organisatorische
+Strukturen geprägt wird, sich die Offenheit und Verflechtung jedoch
+differenziert. Je höher die Stufe, desto stärker verdichtet sich das
+Netzwerk.
+
+### 2.6.2. Akademiezugehörigkeit
+
+Diese Beobachtungen bilden den Ausgangspunkt für den nächsten
+Analyseschritt, der den Einfluss der Akademiezugehörigkeit auf die
+Karrierestrukturen untersucht.
+
+Dazu wird das Gesamtnetzwerk in zwei Teilnetzwerke aufgeteilt:
+
+1.  Fahrern ohne Akademiezugehörigkeit („unabhängige Fahrer“) und
+
+2.  Fahrern, die Teil eines Nachwuchsprogramms waren („abhängige
+    Fahrer“).
+
+Diese Trennung ermöglicht es, strukturelle Unterschiede hinsichtlich
+Kohärenz, Zentralisierung und Dichte zu identifizieren und Rückschlüsse
+darüber zu ziehen, wie stark institutionelle Einbindungen den
+Karriereverläufe prägen. Durch den Vergleich beider Gruppen lässt sich
+somit prüfen, ob und in welchem Maße Nachwuchsprogramme als
+strukturierende oder beschleunigende Elemente im motorsportlichen
+Aufstieg wirken.
+
+```{r Teilnetzwerk: Unabhängige Fahrer, fig.height=15, fig.width= 20 }
+# Teilnetzwerk Unabhängig erstellen
+unabhaengig <- f1|>
+activate(nodes)|> # aktiviert die Knoten
+filter(independent < 3)|> # filtert nach Akademiezugehörigkeit
+filter(!node_is_isolated()) # entfernt isolierte Knoten
+
+plot(unabhaengig, # ruft das tidygrapg-Objekt auf
+     asp = 0, # nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     vertex.size=degree(unabhaengig)/0.75, # Knotengröße entspricht 0.75 Degree
+     vertex.label.cex = 1, # Label-Größe
+     vertex.label=V(unabhaengig)$full_name, # definiert die Labels der Knoten
+     vertex.label.color="black", # färbt die Labels
+     height = 9, # gibt die Höhe an
+     width = 16, # gibt die Breite an
+     main="Teilnetzwerk der unabhängige Fahrer") # gibt der Visualisierung einen Titel
+
+# zählt die Knotenanzahl
+vcount(unabhaengig)
+
+# gibt die Anzahl der verschieden Typen an
+table(V(unabhaengig)$type)
+
+# zählt die Kantenanzahl
+ecount(unabhaengig)
+
+# Dichte des Netzwerks in Prozent
+dichte_u <- edge_density(unabhaengig)*100
+dichte_u
+
+# Degree-Zentralität berechnen
+degree(unabhaengig, mode = "all")
+# Betweenness-Zentralität berechnen
+betweenness(unabhaengig, normalized = TRUE)
+```
+
+Das Teilnetzwerk der unabhängigen Fahrer umfasst 64 Kanten und 50 Knoten
+bei einer Dichte von 5,22 Prozent. Dabei sind fast alle Knoten indirekt
+miteinander verbunden. Über die Degree-Zentralität konnte die Struktur
+des Teilnetzwerks untersucht werden. Die Analyse zeigt, dass die
+Degreewerte variieren: Der Großteil der Akteure besitzt eine oder zwei
+Verbindungen. Es gibt wenige Knoten (ART2, ART3, S1, JP, RG), die höhere
+Werte aufweisen. Diese ungleiche Verteilung deutet auf eine heterogene
+Netzwerkstruktur und wird somit von dem Formel-2-Team ART Grand Prix
+(ART2), Formel-3-Team ART Grand Prix (ART3) und Formel-1-Team Stake (S1)
+dominiert. Nur wenige Teams bündeln demzufolge viele Fahrer und die
+Mehrheit ist eher schwach eingebunden. Somit ergibt sich ein weniger
+zentralisiertes Netzwerk, das aber trotzdem kohärent genug ist, um eine
+gemeinsame Hauptkomponente zu bilden. Die offene, aber auch weniger
+stabile Struktur illustriert den individualisierten Charakter der
+unabhängigen Fahrer.
+
+```{r Teilnetzwerk: Abhängige Fahrer, fig.height=15, fig.width= 20}
+# Teilnetzwerk Abhängige erstellen
+abhaengig <- f1|>
+activate(nodes)|> # aktiviert die Knoten
+filter(independent > 1)|> # filtert nach Akademizugehörigkeit
+filter(!node_is_isolated()) # entfernt isolierte Knoten
+
+plot(abhaengig, # ruft das tidygrapg-Objekt auf
+     asp = 0, # nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     vertex.size=degree(abhaengig)/0.75, # Knotengröße entspricht 0.75 Degree
+     vertex.label.cex = 1, # Label-Größe
+     vertex.label=V(abhaengig)$full_name, # definiert die Labels der Knoten
+     vertex.label.color="black", # färbt die Labels
+     height = 9, # gibt die Höhe an
+     width = 16, # gibt die Breite an
+     main="Teilnetzwerk der abhängigen Fahrer") # gibt der Visualisierung einen Titel
+
+# zählt die Knotenanzahl
+vcount(abhaengig)
+
+# gibt die Anzahl der verschieden Typen an
+table(V(abhaengig)$type)
+
+# zählt die Kantenanzahl
+ecount(abhaengig)
+
+# Dichte des Netzwerks in Prozent
+dichte_u <- edge_density(abhaengig)*100
+dichte_u
+
+# Degree-Zentralität berechnen
+degree(abhaengig, mode = "all")
+# Betweenness-Zentralität berechnen
+betweenness(abhaengig, normalized = TRUE)
+```
+
+Im Teilnetzwerk der abhängigen Fahrer gibt es 152 Kanten und 81 Knoten,
+die eine Dichte von rund 4,69 Prozent aufweist. Im Gegensatz zu den
+unabhängigen Fahrern besteht hier eine zusammenhängende Hauptkomponente,
+in der alle Knoten miteinander verbunden sind. Die Berechnung der
+Degree-Zentralität zeigt, dass einzelne Organisationen wie das Red Bull
+Junior Team, die drei Formel-3-Teams Rodin Carlin (RC3), ART Grand Prix
+(ART3) und Prema Racing (PR3) über hohe Werte verfügen und agieren hier
+auch als Schlüsselakteure. Zudem besitzt das Formel-1-Team Visa Cash App
+RB (VC) eine zentrale Rolle als Tür, um die höchste Motorsportklasse zu
+erreichen. Insgesamt ist dieses Netzwerk auf wenige Institutionen
+konzentriert, die als Schlüsselknoten fungieren.
+
+Im Vergleich der beiden Teilnetzwerke gibt es sowohl Gemeinsamkeiten als
+auch Unterschiede. Beide Netzwerke weisen eine heterogene Struktur auf,
+da die Verbindungen ungleich über die Knoten verteilt sind. In beiden
+Fällen übernehmen wenige Teams zentrale Positionen, während der Großteil
+schwächer eingebunden ist. Besonders auffällig ist, dass das
+Formel-3-Team ART Grand Prix (ART3) in beiden Teilnetzwerken eine
+bedeutende Rolle einnimmt und damit unabhängig von einer
+Akademiezugehörigkeit ein wichtiger Akteur im Karriereverlauf vieler
+Fahrer bleibt. Ein wesentlicher Unterschied liegt dabei in der Art der
+Zentralisierung der beiden Teilnetzwerke. Beim unabhängigen Netzwerk
+übernimmt das Formel-1-Team Stake (S1) die Funktion des wichtigsten
+Zugangsknoten, um in die höchste Motorsportklasse zu kommen, während
+beim abhängigen Netzwerk dies das Team Visa Cash App RB (VC) darstellt.
+Dies suggeriert, dass der Aufstieg in die Formel 1 je nach Förderkontext
+über unterschiedliche Teams verläuft, auch wenn sie zuvor im selben Team
+in den Nachwuchsklassen waren.
+
+Zusammengefasst kann gesagt werden, dass die Akademiezugehörigkeit dazu
+führt, dass man stärker in eine Institution eingebunden ist. Dies liegt
+daran, dass sich die Karrierepfade vereinheitlichen und sich zentrale
+Organisationen herauskristallisieren. Die Analyse unterstützt somit die
+Annahme, dass Nachwuchsprogramme eine strukturierende Funktion innerhalb
+des motorsportlichen Karrieresystems übernehmen, während die
+unabhängigen Fahrer eher flexiblere Wege eingehen.
+
+### 2.6.3. Entwicklung der Karrierestrukturen
+
+Nach der Betrachtung der Akademiezugehörigkeit folgt nun eine zeitliche
+Differenzierung des Gesamtnetzwerks. Um zu untersuchen, ob sich die
+Struktur der Karrieren im Verlauf der letzten Jahre verändert hat, wird
+das Gesamtnetzwerk in zwei Zeiträume unterteilt: 2015 bis 2019 und 2020
+bis 2025. Dadurch können Aussagen über die Entwicklung der Verbindungen
+zwischen Fahrern und Organisationen über die Zeit getroffen werden. Auf
+diese Weise wird sichtbar, ob sich der motorsportliche Karrierepfad im
+jüngeren Zeitraum stärker verdichtet, geöffnet oder restrukturiert hat.
+
+```{r Teilnetzwerk: 2015 bis 2019, fig.height=15, fig.width= 20}
+# Teilnetzwerk 1. Zeitraum erstellen
+vorher <- f1 |>
+  activate(nodes) |> # aktiviert die Knoten
+  filter(is.na(debut_year) | debut_year >= 2015 & debut_year <= 2019) |> # filter zwischen 2015 und 2019
+  filter(!node_is_isolated()) # entfernt isolierte Knoten
+
+plot(vorher, # ruft das tidygrapg-Objekt auf
+     asp=0, # nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     vertex.label.cex = 1, # Label-Größe
+     vertex.label=V(vorher)$full_name, # definiert die Labels der Knoten
+     vertex.label.color="black", # färbt die Labels
+     height = 9, # gibt die Höhe an
+     width = 16, # gibt die Breite an
+     vertex.size=degree(vorher)/0.75, # Knotengröße entspricht 0.75 Degree
+     main ="Teilnetzwerk von 2015 bis 2019")
+
+# zählt die Knotenanzahl
+vcount(vorher)
+# zählt die Kantenanzahl
+ecount(vorher)
+# berechnet die Dichte
+dichte_v <- edge_density(vorher)*100
+dichte_v
+# gibt die Anzahl der Abhängigkeit an
+table(V(vorher)$independent)
+# Degree-Zentralität berechnen
+degree(vorher, mode = "all")
+which.max(degree(vorher,mode = "all")) # größter Wert
+# Betweenness-Zentralität berechnen
+bet_<- betweenness(vorher, normalized = TRUE)
+which.max(betweenness(vorher, normalized = TRUE)) # größter Wert
+sort(bet_, decreasing = TRUE) # sortiert die Ergebnisse
+```
+
+Im Zeitraum von 2015 bis 2019 besteht das Netzwerk aus 59 Knoten und 93
+Kanten, was einer Dichte von rund 5,44 Prozent entspricht. Von den
+erfassten Fahrern waren sechs ohne Akademiezugehörigkeit und 15 gehörten
+einem Nachwuchsprogramm an. Die Analyse der Gradzentralität zeigt, dass
+insbesondere die Formel-3-Teams ART Grand Prix (ART3) und Rodin Carlin
+(RC3) besonders viele Verbindungen abseits der Fahrer aufweisen.
+Innerhalb des Karriereverlaufs bilden sie zentrale Stationen ab, die
+wichtige Bezugspunkte für den Übergang zwischen den Rennserien sind. Die
+Betweenness-Zentralität verdeutlichen zudem, dass vor allem die
+Formel-1-Teams Visa Cash App RB (VB), Manor Racing (MR) und Williams (W)
+wichtige Vermittlerrollen einnehmen. Auch die Formel-2-Teams DAMS
+(DAMS2) und Rodin Carlin (RC2) weisen erhöhte Betweenness-Werte auf und
+treten als relevante Vermittler auf, da viele Karrierewege über sie
+führen.
+
+```{r Teilnetzwerk: 2020 bis 2025, fig.height=15, fig.width= 20}
+# Teilnetzwerk 1. Zeitraum erstellen
+nachher <- f1 |>
+  activate(nodes)|> # aktiviert die Knoten
+  filter(is.na(born) | debut_year >= 2020 & debut_year <= 2025)|> # filter zwischen 2020 und 2025
+  filter(!node_is_isolated()) # entfernt isolierte Knoten
+
+plot(nachher, # ruft das tidygrapg-Objekt auf
+     asp=0, # nutzt die komplette Leinwand
+     layout=layout_nicely, # macht das Netzwek schön
+     vertex.label.cex = 1, # Label-Größe
+     vertex.label=V(nachher)$full_name, # definiert die Labels der Knoten
+     height = 9, # gibt die Höhe an
+     width = 16, # gibt die Breite an
+     vertex.size=degree(nachher)/0.75, # Knotengröße entspricht 0.75 Degree
+     main =" Teilnetzwerk von 2020 bis 2025") # gibt der Visualisierung einen Titel
+
+# zählt die Knotenanzahl
+vcount(nachher)
+# zählt die Kantenanzahl
+ecount(nachher)
+# berechnet die Dichte
+dichte_n <- edge_density(nachher)*100
+dichte_n
+# gibt die Anzahl der Abhängigkeit an
+table(V(nachher)$independent)
+
+# Degree-Zentralität berechnen
+degree(nachher, mode = "all")
+which.max(degree(nachher, mode = "all")) # größter Wert
+
+# Betweenness-Zentralität berechnen
+bet_n <- betweenness(nachher, normalized = TRUE)
+which.max(betweenness(nachher)) # größter Wert
+sort(bet_n, decreasing = TRUE) # sortiert die Ergebnisse
+```
+
+Das Netzwerk des zweiten Untersuchungszeitraums von 2020 bis 2025
+umfasst 47 Knoten und 70 Kanten bei einer Dichte von 6,48 Prozent. Die
+Zahl der unabhängigen Fahrer reduziert sich dabei deutlich auf eine
+Person, während 13 Fahrer einer Akademie angehörten. Die im Vergleich
+höhere Dichte suggeriert, dass der jüngere Zeitraum stärker verdichtet
+und enger gebündelt ist. Dabei sind zentrale Akteure hier aber Prema
+Racing sowohl in der Formel 2 als auch in der Formel 3. Sie bilden sich
+als ein wichtiges strukturelle Zentrum innerhalb dieses Netzwerks
+heraus. Auch innerhalb der Nachwuchsprogramme bestätigt sich der
+Einfluss des Red Bull Junior Teams (RBR), das wie im ersten Zeitraum die
+höchste Degree-Zentralität besitzt. Die Betweenness-Zentralität zeigt
+zudem, dass Visa Cash App RB (VC) weiterhin eine bedeutende Funktion als
+Vermittler hat.
+
+Der Vergleich beider Netzwerke illustriert, dass sich die Struktur des
+Aufstiegs im Motorsport über die letzten zehn Jahre verändert hat.
+Während das Netzwerk im früheren Zeitraum noch relativ verteilt war,
+wird das Teilnetzwerk von 2020 bis 2025 von wenigen Teams geprägt.
+Gleichzeitig nimmt die Zahl an unabhängigen Fahrern ab und symbolisiert
+damit, dass im jüngeren Zeitraum die Rolle von Akademien zunehmend
+bedeutsamer wird. Auch der zentrale Akteur, der den Zugang in die Formel
+1 ermöglicht, hat sich verändert. War es im ersten Zeitraum noch Manor
+Racing, so ist es nun Visa Cash App RB (VC).
+
+# 3. Fazit und Limitationen
+
+Der Weg in die Formel 1 ist heutzutage kein Zufall mehr.
+Karriereverläufe folgen nach klaren Mustern und institutionellen
+Strukturen. Besonders Förderprogramme spielen dabei eine zentrale Rolle.
+Indem sie stabile Übergänge zwischen den Rennserien schaffen,
+ermöglichen sie Fahrern, die Teil eines Juniorenprogrammes sind, bessere
+Chancen auf einen Platz in der Formel 1. Das Netzwerk ist damit stark
+hierarchisch organisiert. Einige wenige Akteure, vor allem das
+Formel-3-Team ART Grand Prix und Red Bull Junior Team, dominieren die
+Struktur im Netzwerk mit einem hohen Degreewert und gelten dadurch für
+die Fahrer als direktes Sprungbrett in die Formel 1. Unabhängige Fahrer
+schaffen den Aufstieg in die Königsklasse dagegen seltener und oft über
+individuelle Gelegenheiten. Grundsätzlich ist es nicht unmöglich, als
+unabhängiger Fahrer in die Formel zu gelangen, wie Fernando Alonso mit
+einem hohen Closeness-Wert bewiesen hat, jedoch ist es herausfordernder
+und mit hohen Kosten verbunden.
+
+Die Ergebnisse bestätigen damit die Hypothesen, dass Karrieren in der
+Formel 1 zunehmend standardisiert verlaufen und institutionell geprägt
+sind. Gleichzeitig zeigen sich deutliche Abhängigkeiten von
+Organisationen, Förderstrukturen und finanziellen Ressourcen. Diese
+Entwicklung spiegelt die Professionalisierung, aber auch die soziale
+Selektivität des Motorsports wider. Akademien bieten Chancen, schließen
+aber auch viele Talente aus, die nicht Teil dieser Systeme sind. Dadurch
+entsteht eine Art geschlossene Struktur, in der Netzwerke und
+Zugehörigkeiten wichtiger werden als individuelle Leistung.
+
+Trotz der klaren Ergebnisse hat die Analyse einige Einschränkungen. Da
+sich die Datengrundlage nur auf öffentlich zugängliche Informationen
+beschränkt, können nur institutionelle Verbindungen berücksichtigt
+werden, nicht aber persönliche Beziehungen oder Umstände, die in der
+Realität ebenfalls eine große Rolle spielen. Der Fokus liegt auf den
+Beziehungen, die die Fahrer zu den Teams hatten, dabei haben wir die
+Beziehungen zwischen den einzelnen Teams zueinander außen vorgelassen.
+Auch werden nur Fahrer berücksichtigt, die tatsächlich in der Formel 1
+gestartet sind. Damit bleiben Talente außen vor, die den Sprung nur
+knapp verpasst haben oder nicht im Start angetreten sind. Ein weiterer
+Punkt ist die zeitliche Begrenzung. Der untersuchte Zeitraum von 2015
+bis 2025 zeigt zwar aktuelle Entwicklungen, aber keine langfristige
+Bewertung über Generationen und familiäre Beziehungen hinweg. Zukünftig
+könnte der E-Motorsport betrachtet werden, der während der
+COVID-Pandemie aufstieg. Hier könnte untersucht werden, ob die
+Karriereverläufe gerechter wären, im Bezug auf finanzielle Aspekte und
+Karrierechancen.
+
+Dennoch liefert die Arbeit wertvolle Einblicke in die Struktur der
+Karrierepfade im Motorsport. Sie macht sichtbar, wie stark
+Institutionen, Förderprogramme und Netzwerke die Karriereentscheidungen
+prägen. Damit trägt sie dazu bei, die oft unsichtbaren Strukturen hinter
+dem sportlichen Erfolg in der Formel 1 besser zu verstehen.
+
+# 4. Literatur
+
+Barthauer, L., Sauer, N. C., & Kauffeld, S. (2018). Karrierenetzwerke
+und ihr Einfluss auf die Laufbahnentwicklung. In S. Kauffeld & D. Spurk
+(Hrsg.), *Handbuch Karriere und Laufbahnmanagement* (S. 241–268).
+Springer. <https://doi.org/10.1007/978-3-662-48750-1_9>
+
+Bauer, R. (2022). Teammanagement im Motorsport – systemisch
+professionell. In B. Reuter (Hrsg.), *Motorsport-Management*(S.
+285–336). SpringerGabler. <https://doi.org/10.1007/978-3-662-65698-3_12>
+
+Budzinski, O. & Feddersen, A. (2019). Measuring Competitive Balance in
+Formula One Racing. *Ilmenau Economics Discussion Papers*, *25*(121).
+<http://dx.doi.org/10.2139/ssrn.3357687>
+
+Fehling, J. (2018). Teams für neue FIA Formel 3 2019 bestätigt: HWA
+dabei! Motorsport-Magazin.com.
+<https://www.motorsport-magazin.com/formel3/news-251249-fia-formel-3-2019-teams-offiziell-starterliste-hwa/>.
+Zugegriffen: 18. Nov. 2025.
+
+Faria, J., & Ferreira, F. (2024). Podium and Influence: A Network
+Analysis of the Most Important Formula One Drivers. In *Anais do XIII
+Brazilian Workshop on Social Network Analysis and Mining*, (S. 144-157).
+Porto Alegre: SBC. <doi:10.5753/brasnam.2024.3054>
+
+Kauffeld, S., & Spurk, D. (Hrsg.). (2018). *Handbuch Karriere und
+Laufbahnmanagement*. Springer.
+
+Krell, F. & Nieland, J. (2024). Virtual Racing als Real Racing –
+Inszenierungen und Rezeption der Formel 1 während der Covid-19-Pandemie.
+In T. Horky & JU. Nieland (Hrsg.), *COVID-19 und die Sportkommunikation*
+(S. 151–170). SpringerVS. <https://doi.org/10.1007/978-3-658-43461-8_8>
+
+Latzke, M., Schneidhofer, T. M., Mayrhofer, W., & Pernkopf, K. (2018).
+Karriereforschung: Konzeptioneller Rahmen, zentrale Diskurse und neue
+Forschungsfelder. In S. Kauffeld & D. Spurk (Hrsg.), *Handbuch Karriere
+und Laufbahnmanagement* (S. 3–35). Springer.
+<https://doi.org/10.1007/978-3-662-48750-1_41>
+
+Motley, M., Jensen, J., Weight, E. & Bates, B. (2025). The Road Less
+Traveled: Analyzing the Career Paths of Women Athletic Directors
+Utilizing Social Network Analysis. Journal Of Issues in Intercollegiate
+Athletics, 18(1). <https://doi.org/10.51221/sc.jiia.2025.18.1.3>
+
+Mourao, P. R. (2024). Drivers’ moves in Formula One Economics: A network
+analysis since 2000. *SPORT TK-EuroAmerican Journal of Sport Sciences*,
+13(9). <https://doi.org/10.6018/sportk.540441>
+
+Puschkeit, T. (2022). Prozesse, Rollen und Funktionen in High
+performance Motorsportteams. In B. Reuter (Hrsg.),
+*Motorsport-Management* (S. 127–155). Springer.
+<https://doi.org/10.1007/978-3-662-65698-3_6>
+
+Ruda, W. (2022). Sponsoring im Motorsport. In B. Reuter (Hrsg.),
+*Motorsport-Management* (S. 377–411). Springer.
+<https://doi.org/10.1007/978-3-662-65698-3_15>
+
+Speedsport Magazine. (o. J.). Speedsport Magazine - Motorsport Magazin
+online seit 1996. Speedsport Magazine.
+<https://www.speedsport-magazine.de/suchergebnis.html>. Zugegriffen: 17.
+Nov. 2025.
+
+# 5. Anlage
+
+## 5.1. Link auf Github
+
+-   Github: <https://github.com/dp064/Karriereweg_Formel1.git>
+
+-   Codebuch:
+    <https://github.com/dp064/Karriereweg_Formel1/blob/f89125c135ae0e8fd1dba2af2c254b1477a2a93c/codebuch.md>
+
+-   Edgelist:
+    <https://github.com/dp064/Karriereweg_Formel1/blob/68210ca4325f5cad6343fe9ba21a29a88f4b2e84/edgelist.csv>
+
+-   Nodelist:
+    <https://github.com/dp064/Karriereweg_Formel1/blob/f9ff0281654336079be8c2c2b070f9f060f4eeb1/nodelist.csv>
+
+## 5.2. Teilnehmerinnen des Projekts und Arbeitsaufwand im Projekt
+
+**Teammitglieder**
+
+Jennifer Chisom Edeh, Leonie Helbich, Dang Minh Thu Pham, Stefania
+Santucci, Alina Württemberger
+
+**Arbeitsaufwand im Projekt**
+
+-   Jennifer Chisom Edeh (je079): Literaturrecherche, Forschungsbericht,
+    Datenerhebung und -bereinigung
+
+    -   mind. 120 Stunden
+
+-   Leonie Helbich (lh204): Literaturrecherche, Forschungsbericht,
+    Datenerhebung
+
+    -   mind. 75 Stunden
+
+-   Dang Minh Thu Pham (dp064): Projektleitung, Literaturrecherche,
+    Forschungsbericht, Datenerhebung, Codierung, Auswertung
+
+    -   mind. 150 Stunden
+    -   MVP
+
+-   Stefania Santucci (ss609): Literaturrecherche, Forschungsbericht,
+    Datenerhebung
+
+    -   mind. 75 Stunden
+
+-   Alina Württemberger (aw011): Literaturrecherche, Forschungsbericht,
+    Datenerhebung
+
+    -   mind. 60 Stunden
+
+**TeamCanvas**
+
+![](images/TeamCanvas_Formel1.pdf)
+
+**Lessons learned / Reflexion der Teamarbeit**
+
+Im Verlauf der Arbeit haben sich mehrere Erkenntnisse ergeben, die den
+Arbeitsprozess und die praktische Umsetzung beeinflusst haben. Eine der
+wichtigsten Erfahrungen betrifft das Zeitmanagement. Frühzeitig wurde
+deutlich, dass dieses Forschungsprojekt eine realistische Planung und
+klare Struktur benötigt. Das Aufteilen der Arbeit in kleinere Schritte
+erwies sich dabei als hilfreich, um kontinuierliche Fortschritte zu
+sichern. Eng damit verknüpft ist die Erkenntnis, wie wertvoll es ist,
+Daten kontinuierlich zu bereinigen, anstatt diesen Schritt auf das
+Projektende zu verschieben. Fehlerhafte oder unvollständige Daten wirken
+sich direkt auf die Analyse aus und können zu Verzerrung führen, sie
+sich später nur mit großem Zeitaufwand korrigieren lassen. Darüber
+hinaus zeigte sich die Bedeutung sorgfältiger Arbeitsweisen. Besonders
+hilfreich war es, Daten zunächst getrennt zu sammeln, zu ordnen und zu
+dokumentieren, bevor sie in einer finalen Version zusammengeführt
+wurden. Eine weitere wichtige Erfahrung war der Nutzen von Google Docs.
+Dies ermöglichte eine flexible und ortsunabhängige Arbeitsweise sowie
+das Nachverfolgen von Fortschritten und Änderungen. Insgesamt haben
+diese Erkenntnisse dazu beigetragen, den Arbeitsprozess effektiver,
+strukturierter und qualitativ hochwertiger zu gestalten.
